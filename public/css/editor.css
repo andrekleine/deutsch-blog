@@ -1,0 +1,101 @@
+.banner {
+  width: 100%;
+  height: 25rem;
+  position: relative;
+  background-color: #e7e7e7;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-upload-btn {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.banner-upload-btn img {
+  width: 1rem;
+}
+
+.blog {
+  width: 70vw;
+  min-width: 25rem;
+  height: 6rem;
+  display: block;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+}
+
+.title,
+.article {
+    width: 100%;
+    min-height: 6rem;
+    height: auto;
+    outline: none;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #2d2d2d;
+    resize: none;
+    border: none;
+    padding: .8rem;
+    border-radius: 10px;    
+}
+
+.title::placeholder,
+.article::placeholder {
+    color: #2d2d2d;
+
+}
+
+.article {
+    height: 32rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+    padding-bottom: 6rem;
+    white-space: pre-wrap;
+}
+
+.blog-options {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background: #fff;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn.grey {
+  font-size: .8rem;
+  background: #a5a5a5;
+  color: #fff;
+  margin-left: .8rem;
+}
